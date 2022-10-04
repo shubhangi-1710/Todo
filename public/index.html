@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<main class = "app">
+		<div class="child">
+	<section class="todo-list">
+		<h3>TODO LIST</h3>
+		<div class="list" id="todo-list">
+			<div class="todo-item">
+				<label>
+					<input type="checkbox">
+					<span class="bubble1"></span>
+				</label>
+
+
+			<div class="todo-content">
+				<input type="text" value="Make a video" readonly>
+			</div>
+			<div class="actions">
+				<button class="edit">Edit</button>
+				<button class="delete">Delete</button>
+
+			</div>
+			</div>
+		</div>
+	</section></div>
+		<div class="parent">
+		<section class = " greeting">
+			<h2 class= "title">What's up,<input type="text" id="name" placeholder="Name here">
+		</section>
+		
+		<section class = "create-todo">
+			<h3 id="subtitle"> CREATE A TO DO </h3>
+			<form id = "new-todo-form">
+				<h4>What's on your todo list</h4>
+				<input type="text" name="content" id = "content" placeholder="Add Task">
+
+				<h4>Pick a category</h4>
+				<div class="options">
+					<label>
+						<input type="checkbox" name="category" id="category1"
+						value="business">
+						<span class="bubble busisness"></span>
+					</label>
+					<div id="c1">Business</div>
+					
+					
+					<label>
+						<input type="checkbox" name="category" id="category2"
+						value="personal">
+						<span class="bubble personal"></span>
+					</label>
+						<div id="c2">Personal</div>
+
+					
+				</div>
+				<input type="submit" value="Add todo">
+			</form>
+		</section></div>
+	</main>
+<script type="text/javascript" src="main.js"></script>
+</body>
